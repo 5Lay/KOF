@@ -17,7 +17,7 @@ class Kyo extends Player {
             this.animations.set(i, {
                 gif: gif,
                 frame_cnt: 0, // 总图片数
-                frame_rate: 5, // 每5帧过度一次
+                frame_rate: 8, // 每8帧过度一次
                 offset_y: offsets[i], // y方向偏移量
                 loaded: false, // 是否加载完整
                 scale: 2, // 放大多少倍
